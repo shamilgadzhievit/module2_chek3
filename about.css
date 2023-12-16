@@ -1,0 +1,71 @@
+.about {
+    margin-bottom: 150px;
+}
+
+.about__title,
+.projects__title,
+.services__title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.about__text {
+    width: 1048px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.35px;
+}
+
+.about__btn {
+    display: inline-block;
+    border-radius: 5px;
+    background: #AD1818;
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 961px) {
+    .about__text {
+        border-color: aqua;
+        width: 690px;
+        font-size: 35px;
+        letter-spacing: -1.05px;
+    }
+
+    .about {
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about__text {
+        width: 100%;
+        font-size: 22px;
+        letter-spacing: -1.05px;
+    }
+
+    .about__btn {
+        font-size: 16px;
+        letter-spacing: -0.48px;
+        padding: 15px 30px;
+    }
+
+    .about {
+        margin-bottom: 80px;
+    }
+}

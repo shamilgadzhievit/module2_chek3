@@ -1,0 +1,29 @@
+
+@import "../projects.css";
+@import "../header.css";
+@import "../footer.css";
+@import "../contact.css";
+@import "../services.css";
+@import "../galleries.css";
+@import "../hero.css";
+@import "../about.css";
+@import "../reviews.css";
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+    background-color: #FFF;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0px 15px;
+
+}
