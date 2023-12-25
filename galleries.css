@@ -31,18 +31,21 @@
 .gallery__control-next {
   width: 40px;
   height: 40px;
-  background-color: none;
-  border: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 
 }
 
 
 .gallery__control-prev {
-  background-image: url('./resources/slides/prev.png');
+  background-image: url('./resources/slides/Vector.svg');
+
+
 }
 
 .gallery__control-next {
-  background-image: url('./resources/slides/prev.png');
+  background-image: url('./resources/slides/next.png');
   transform: rotate(180deg);
 }
 
