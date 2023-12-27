@@ -3,7 +3,7 @@
     margin-bottom: 73px;
 }
 
-.header__wrapper {
+.header__inner {
     display: flex;
     justify-content: space-between;
 }

@@ -32,7 +32,7 @@
   width: 40px;
   height: 40px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 
 }
@@ -45,7 +45,7 @@
 }
 
 .gallery__control-next {
-  background-image: url('./resources/slides/next.png');
+  background-image: url('./resources/slides/Vector.svg');
   transform: rotate(180deg);
 }
 

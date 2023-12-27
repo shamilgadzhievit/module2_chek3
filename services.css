@@ -1,14 +1,11 @@
 .services {
     background-color: #000;
+    padding-top: 150px;
+        padding-bottom: 150px;
 }
 
 .services__title {
     color: #fff;
-}
-
-.services {
-    padding-top: 150px;
-    padding-bottom: 150px;
 }
 
 .services__img-box {
@@ -21,7 +18,6 @@
 
     width: 100%;
     height: 100%;
-    /* height: 389px; */
     object-fit: cover;
 }
 
@@ -44,7 +40,7 @@
 }
 
 .services__list {
-    width: calc(50% - 5px);
+    width: calc(50% - 5px);/*  к column-gap  относится */
 
 }
 
@@ -57,24 +53,17 @@
     color: #FFF;
     text-align: center;
     font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     letter-spacing: -0.9px;
     text-decoration: none;
 }
 .services__btn:hover {
     background: #fff;
     color:#AD1818;
-
-    color: #ffffff22;
-    color: #64727f;
 }
 .services__price {
     position: absolute;
     top: 36px;
     left: 50px;
-
     flex-shrink: 0;
     border-radius: 5px;
     background: #AD1818;

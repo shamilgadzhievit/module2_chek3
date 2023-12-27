@@ -6,7 +6,6 @@
 
 .footer__link {
     text-decoration: none;
-    /* padding-right: 53px; */
     font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.54px;
@@ -36,10 +35,9 @@
 .footer__link:hover {
     opacity: 0.5;
 }
-/* @media (max-width: 961px){
 
 
-} */
+
 @media(max-width: 576px){
 
     .footer{

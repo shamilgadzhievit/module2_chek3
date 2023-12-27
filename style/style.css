@@ -8,6 +8,7 @@
 @import "../hero.css";
 @import "../about.css";
 @import "../reviews.css";
+@import "../popup.css";
 
 
 html {
@@ -18,7 +19,7 @@ body {
     width: 100%;
     font-family: 'Manrope', sans-serif;
     background-color: #FFF;
-    font-weight: 400;
+    font-weight: 400
 }
 
 .container {
